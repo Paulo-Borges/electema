@@ -36,6 +36,7 @@ header {
 }
 
 .header_sociais {
+    margin: 0 auto;
     background-color: var(--bg-topo);
     display: flex;
     justify-content: space-between;
@@ -58,21 +59,9 @@ header {
     cursor: pointer;
 }
 
-@media (max-width: 480px) {
-    .header_address, .header_redes {
-       display: none;
-    }
-}
-
-@media (min-width: 481px) and (max-width: 767px) {
-
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-    
-}
 
 section.header_menu {
+    margin: 0 auto;
     background-color: var(--bg-principal);
     display: flex;
     justify-content: space-between;
@@ -105,22 +94,7 @@ a {
 }
 
 @media (max-width: 480px) {
-    section.header_menu {
-        display: block; 
-        height: 15rem;
-    }
-
-    .header_title {
-        display: flex;
-        justify-content: center;
-        padding: 40px;
-        margin-bottom: 5px;
-    }
-    .menu li {
-        padding: 20px;
-        display: flex;
-        font-size: 2rem;
-    }
+    
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
@@ -129,6 +103,15 @@ a {
 
 @media (min-width: 768px) and (max-width: 991px) {
     
+}
+
+@media (min-width: 992px) and (max-width: 1470px) {
+    .header_sociais {
+        width: 90%;
+    }
+    section.header_menu {
+        width: 90%;
+    }
 }
 
 
@@ -229,6 +212,14 @@ main {
     
 }
 
+@media (min-width: 992px) and (max-width: 1470px) {
+    .footer {
+        width: 95%;
+       
+    }
+   
+}
+
 
 .container {
     margin: 0 auto 120px;
@@ -295,18 +286,7 @@ p {
 }
 
 @media (max-width: 480px) {
-    .container {
-        margin: 0 auto 120px;
-        padding: 50px;
-        display: flex;
-        width: 90rem;
-    }
-    .container_box {
-        display: none; 
-    }
-    .container-base {
-        margin: 0 auto;
-    }
+    
 
 }
 
@@ -316,6 +296,10 @@ p {
 
 @media (min-width: 768px) and (max-width: 991px) {
 
+}
+
+@media (min-width: 992px) and (max-width: 1470px) {
+  
 }
 
 .works {
@@ -394,6 +378,10 @@ p {
 
 @media (min-width: 768px) and (max-width: 991px) {
     
+}
+
+@media (min-width: 992px) and (max-width: 1470px) {
+   
 }
 
 
@@ -517,6 +505,12 @@ p {
     
 }
 
+@media (min-width: 992px) and (max-width: 1470px) {
+    .whyUs {
+        width: 95%;
+    }
+}
+
 
 .best_technician {
     width: 90rem;
@@ -593,6 +587,10 @@ p {
 
 @media (min-width: 768px) and (max-width: 991px) {
     
+}
+
+@media (min-width: 992px) and (max-width: 1470px) {
+   
 }
 
 
@@ -701,6 +699,12 @@ p {
     
 }
 
+@media (min-width: 992px) and (max-width: 1470px) {
+    .Faq_Questions {
+        width: 95%;
+    }
+}
+
 
 .meet {
     margin: 0 auto;
@@ -791,6 +795,10 @@ p {
 
 @media (min-width: 768px) and (max-width: 991px) {
     
+}
+
+@media (min-width: 992px) and (max-width: 1470px) {
+   
 }
 
 
@@ -900,6 +908,13 @@ p {
     
 }
 
+@media (min-width: 992px) and (max-width: 1470px) {
+    .testimonial {
+        width: 95%;
+        
+    }
+}
+
 
 .location {
     text-align: center;
@@ -980,4 +995,20 @@ p {
     font-weight: 900;
     border: none;
     padding: 30px 60px;
+}
+
+@media (max-width: 480px) {
+
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    
+}
+
+@media (min-width: 992px) and (max-width: 1470px) {
+    
 }
