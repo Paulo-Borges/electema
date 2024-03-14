@@ -93,9 +93,9 @@ a {
     border-radius: 40px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 335px) {
     header {
-        margin-left: 15px;
+        margin-left: 6px;
         background-color: #CAEE5A;
         /* margin: 100px auto; */
         width: 70rem;
@@ -232,14 +232,14 @@ main {
     background-color: var(--regua-gray);
 }
 
-@media (max-width: 480px) {
+@media (max-width: 335px) {
     main {
         gap: 50px;
 
     }
 
     .footer {
-        margin-left: 15px;
+        margin-left: 6px;
         width: 70rem;
     }
 
@@ -325,9 +325,9 @@ p {
     color: var(--bg-principal);
 }
 
-@media (max-width: 480px) {
+@media (max-width: 335px) {
     .container {
-        margin: 0 150px 0px 15px;
+        margin: 0 150px 0px 6px;
         width: 70rem;
     }
 
@@ -425,9 +425,9 @@ p {
     cursor: pointer;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 335px) {
     .works {
-        margin-left: 15px;
+        margin-left: 6px;
         width: 70rem;
 
     }
@@ -552,10 +552,10 @@ p {
     cursor: pointer;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 335px) {
     .whyUs {
         width: 70rem;
-        margin-left: 15px;
+        margin-left: 6px;
     }
 
     .whyUs_text {
@@ -645,11 +645,11 @@ p {
     color: var(--home-text);
 }
 
-@media (max-width: 480px) {
+@media (max-width: 335px) {
     .best_technician {
         width: 70rem;
         padding: 50px 100px;
-        margin: 0px 0px 0px 15px;
+        margin: 0px 0px 0px 6px;
 
 
     }
@@ -779,9 +779,9 @@ p {
     cursor: pointer;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 335px) {
     .Faq_Questions {
-        margin-left: 15px;
+        margin-left: 6px;
         width: 70rem;
     }
 
@@ -901,12 +901,12 @@ p {
 
 .meet_Card p {
     font-size: 1rem;
-    width: 300px;
+    width: 335px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 335px) {
     .meet {
-        margin-left: 15px;
+        margin-left: 6px;
         padding: 0px 50px;
         width: 70rem;
     }
@@ -1016,12 +1016,12 @@ p {
     gap: 20px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 335px) {
     .testimonial {
         height: 77rem;
         padding: 10px 150px 10px 150px;
         width: 70rem;
-        margin-left: 15px;
+        margin-left: 6px;
     }
 
     .testimonial_Text {
@@ -1118,7 +1118,7 @@ p {
 .location_endereco p {
     display: inline-block;
     text-align: start;
-    width: 300px;
+    width: 335px;
     padding: 0 40px;
 
 }
@@ -1133,11 +1133,11 @@ p {
     padding: 30px 60px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 335px) {
     .location {
         width: 70rem;
-        margin: 0px 0px 0px 15px;
-        padding: 100px 150px; */
+        margin: 0px 0px 0px 6px;
+        padding: 100px 150px;
     }
 
     .location_container {
