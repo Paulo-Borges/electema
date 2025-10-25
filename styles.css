@@ -89,15 +89,7 @@ a {
   border-radius: 40px;
 }
 
-@media (max-width: 335px) {
-  header {
-    margin-left: 6px;
-    background-color: #caee5a;
-    /* margin: 100px auto; */
-    width: 70rem;
-    height: 7rem;
-  }
-
+@media (max-width: 435px) {
   .header_sociais {
     display: none;
   }
@@ -105,8 +97,7 @@ a {
   section.header_menu {
     display: flex;
     flex-direction: column;
-    padding: 30px 0px 180px 0px;
-    width: 70rem;
+    padding: 30px 0px 80px 0px;
   }
 
   .header_title {
@@ -114,7 +105,7 @@ a {
   }
 
   .menu ul {
-    gap: 40px;
+    display: none;
   }
 
   .menu a {
