@@ -531,43 +531,20 @@ p {
     flex-wrap: wrap;
     justify-content: center;
   }
-  /*
-.table {
-  max-width: 20rem;
-  border: 1px solid var(--work-gray);
-  text-align: center;
-  padding: 20px 30px;
-}
-
-.table button {
-  color: var(--home-text);
-  border-radius: 90px;
-  padding: 5px 20px;
-  border: 2px solid var(--work-gray);
-  background-color: transparent;
-  margin-bottom: 16px;
-}
-
-.table h2 {
-  font-weight: 500;
-  margin-bottom: 16px;
-}
-
-.table p {
-  max-width: 15rem;
-  font-size: 1.2rem;
-}
-
-.work_btn {
-  border: none;
-  padding: 30px 60px;
-  border-radius: 100px;
-  background: var(--button-principal);
-  cursor: pointer;
-} */
 }
 
 @media (min-width: 479px) and (max-width: 819px) {
+  .works span {
+    margin-bottom: 20px;
+  }
+
+  .works_principal {
+    font-size: 2.2rem;
+  }
+
+  .works_tabela {
+    padding: 30px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
