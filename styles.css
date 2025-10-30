@@ -664,28 +664,45 @@ p {
   cursor: pointer;
 }
 
-@media (max-width: 335px) {
+@media (max-width: 435px) {
   .whyUs {
-    width: 70rem;
-    margin-left: 6px;
+    display: flex;
+    border-radius: 6px;
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+    padding-bottom: 30px;
   }
 
   .whyUs_text {
-    padding: 100px 0 100px 50px;
+    padding: 10px;
   }
 
+  .whyUs_text h1 {
+    font-size: 35px;
+  }
   .whyUs_number {
-    display: flex;
-    gap: 20px;
-    max-width: 25.43rem;
-    margin: 141px 50px 141px 120px;
+    margin: 10px 0px 100px 20px;
+  }
+
+  .whyUs_container {
+    margin-left: 20px;
+    height: 33rem;
+  }
+  .whyUs_acertos {
+    padding-bottom: 30px;
+  }
+
+  .whyUs_btn {
+    margin: 0 auto;
+    /* padding: 20px 50px; */
   }
 }
 
-@media (min-width: 481px) and (max-width: 767px) {
+@media (min-width: 479px) and (max-width: 819px) {
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 820px) and (max-width: 1559px) {
 }
 
 @media (min-width: 992px) and (max-width: 1470px) {
