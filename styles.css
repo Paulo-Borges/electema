@@ -876,6 +876,46 @@ p {
 }
 
 @media (min-width: 820px) and (max-width: 1558px) {
+  .best_technician {
+    width: 100vw;
+    height: auto;
+    margin: 50px 0px;
+    padding: 30px;
+  }
+
+  .best_container {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin-bottom: 2rem;
+  }
+  .best_title h1 {
+    max-width: 33rem;
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+  }
+
+  .best_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+  }
+  .best_fundo h2 {
+    font-weight: 500;
+    margin-bottom: 30px;
+  }
+
+  .best_fundo p {
+    max-width: 610px;
+    font-size: 1.5rem;
+    margin-bottom: 60px;
+  }
+
+  .best_fundo span {
+    color: var(--home-text);
+    font-size: 1.5rem;
+  }
 }
 .Faq_Questions {
   padding: 100px 20px 0px 150px;
