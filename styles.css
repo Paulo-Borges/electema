@@ -246,10 +246,10 @@ main {
 @media (min-width: 479px) and (max-width: 819px) {
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 820px) and (max-width: 991px) {
 }
 
-@media (min-width: 992px) and (max-width: 1470px) {
+@media (min-width: 992px) and (max-width: 1558px) {
 }
 
 .container {
@@ -268,33 +268,28 @@ main {
   color: var(--home-text);
   margin-bottom: 30px;
 }
-
 .bg-container {
   background-color: var(--bg-principal);
   width: 34.4375rem;
   height: 18.125rem;
   border-radius: 16px;
 }
-
 .container_text {
   font-size: 3.8rem;
   margin-bottom: 30px;
 }
-
 p {
   display: block;
   color: var(--home-p);
   font-size: 1.3rem;
   margin-bottom: 30px;
 }
-
 .container_box {
   display: flex;
   width: 31.875rem;
   height: 37.375rem;
   padding-right: 50px;
 }
-
 .client {
   width: 90rem;
   display: flex;
@@ -553,9 +548,6 @@ p {
   }
 }
 
-@media (min-width: 992px) and (max-width: 1470px) {
-}
-
 .whyUs {
   display: flex;
   width: 90rem;
@@ -762,10 +754,6 @@ p {
     padding: 20px 50px;
   }
 }
-
-@media (min-width: 992px) and (max-width: 1470px) {
-}
-
 .best_technician {
   width: 90rem;
   height: 50.375rem;
@@ -831,40 +819,39 @@ p {
   color: var(--home-text);
 }
 
-@media (max-width: 335px) {
+@media (max-width: 435px) {
   .best_technician {
-    width: 70rem;
-    padding: 50px 100px;
-    margin: 0px 0px 0px 6px;
+    width: 100vw;
+    height: auto;
+    margin: 50px 0px;
+    padding: 30px;
   }
 
-  .best_title h2 {
-    margin-bottom: 10px;
-  }
-
-  .best_title h1 {
-    margin-bottom: 10px;
-  }
-
-  .best_fundo h2 {
-    margin-bottom: 5px;
-  }
-  .best_fundo span {
+  .best_container {
     display: flex;
-    justify-content: start;
-    align-items: flex-end;
+    flex-direction: column;
+    height: auto;
+    margin-bottom: 2rem;
+  }
+  .best_title h1 {
+    max-width: 33rem;
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+  }
+
+  .best_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.625rem;
   }
 }
 
-@media (min-width: 481px) and (max-width: 767px) {
+@media (min-width: 479px) and (max-width: 819px) {
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 820px) and (max-width: 1558px) {
 }
-
-@media (min-width: 992px) and (max-width: 1470px) {
-}
-
 .Faq_Questions {
   padding: 100px 20px 0px 150px;
   display: flex;
