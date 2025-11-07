@@ -336,7 +336,7 @@ p {
   .container_box {
     display: flex;
     padding-right: 0px;
-    padding-left: 20px;
+    margin-left: 16px;
     width: 95%;
   }
 
