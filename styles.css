@@ -1015,9 +1015,8 @@ p {
     padding: 100px 20px 0px 20px;
     display: flex;
     flex-direction: column;
-    /* margin: 0 auto; */
-    /* width: 90rem; */
     height: auto;
+    margin-bottom: 40px;
   }
 
   .Faq_Questions h1 {
@@ -1052,20 +1051,47 @@ p {
   .Faq_CTA p {
     font-size: 1rem;
   }
-  /*
-.Faq_CTA button {
-  padding: 20px 50px;
-  border-radius: 30px;
-  color: var(--home-texto);
-  font-weight: 600;
-  font-size: 1rem;
-  border: none;
-  background-color: var(--button-principal);
-  cursor: pointer;
-} */
 }
 
 @media (min-width: 479px) and (max-width: 819px) {
+  .Faq_Questions {
+    padding: 100px 20px 0px 20px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+ 
+  .Faq_Questions h1 {
+    margin-top: 50px;
+    font-size: 2.5rem;
+    width: 25rem;
+  }
+
+  .Faq_Questions_bg {
+    text-align: center;
+    width: 27.5rem;
+    height: 29rem;
+    margin-bottom: 40px;
+  }
+
+  .Faq_list {
+    width: 27rem;
+    height: auto;
+    margin-left: 10px;
+  }
+
+  .Faq_CTA {
+    width: 27rem;
+    height: 19.4375rem;
+    padding: 20px 50px;
+  }
+
+  .Faq_CTA h2 {
+    font-size: 1.8rem;
+  }
+
+  .Faq_CTA p {
+    font-size: 1.3rem;
 }
 
 @media (min-width: 820px) and (max-width: 1558px) {
@@ -1393,5 +1419,3 @@ p {
 @media (min-width: 768px) and (max-width: 991px) {
 }
 
-@media (min-width: 992px) and (max-width: 1470px) {
-}
