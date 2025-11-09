@@ -406,7 +406,8 @@ p {
 }
 @media (min-width: 820px) and (max-width: 1558px) {
   .container {
-    gap: 10px;
+    margin: 40px 70px;
+    width: auto;
   }
 
   .container-base {
@@ -414,19 +415,19 @@ p {
   }
 
   .bg-container {
-    width: 80%;
+    width: 100%;
     margin-bottom: 10px;
   }
 
   .container_text {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
   .container_p {
-    font-size: 16px;
+    font-size: 24px;
   }
 
   .container_box {
-    width: 25%;
+    width: 45%;
   }
   .client {
     width: 100%;
@@ -1114,7 +1115,7 @@ p {
   }
   .Faq_CTA button {
     margin-top: 40px;
-    font-size: 1.5rem;
+    font-size: ;
   }
 
   .Faq_CTA h2 {
